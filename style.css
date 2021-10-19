@@ -1,0 +1,122 @@
+@media only screen and (min-width: 992px){
+	.navbar a {
+		font-size: 40px;
+		/*font-family: ;*/
+	}
+
+	.space-left {
+		margin-left: 290px;
+	}
+
+	.div-space-left {
+		width: 290px!important;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px){
+	.navbar a {
+		font-size: 30px;
+		/*font-family: ;*/
+	}
+
+	.space-left {
+		margin-left: 210px;
+	}
+
+	.div-space-left {
+		width: 310px!important;
+	}
+}
+
+
+
+div.collapse {
+	height: 100vh!important;
+}
+
+
+.viewport-height {
+	height: 100vh;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 50px;
+	position: relative;
+	top: 30px;
+}
+
+.tech-stack, .contact-cards {
+	position: relative;
+	top: -100px;
+
+}
+
+.contact-cards .card {
+	height: 400px!important;
+}
+
+.tech-stack img {
+	background-color: black;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+
+
+/*hover effect*/
+
+.nav-item span {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	color: black;
+}
+
+.nav-item span:before {
+	content: '';
+	width: 0;
+	z-index: -1;
+	position: absolute;
+	height: 15px;
+	top: 40%;
+	left: -10%;
+
+}
+
+.nav-item span:hover:before {
+	width: 120%!important ; 
+	transition: width 0.5s!important ;
+
+}
+
+.hover-red span:before {
+	background: red;
+}
+
+.hover-blue span:before {
+	background: blue;
+}
+
+.hover-yellow span:before {
+	background: yellow;
+}
+
+.hover-gray span:before {
+	background: lightgray;
+}
+
+
+
+
+/**********/
+
+footer {
+	background-color: lightgray;
+}
+
