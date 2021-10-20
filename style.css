@@ -4,7 +4,7 @@
 	}
 
 	.space-left {
-		margin-left: 220px;
+		margin-left: 220px!important;
 	}
 
 	.div-space-left {
@@ -209,8 +209,8 @@ footer {
 footer i {
 	font-size: 40px;
 	background: -webkit-linear-gradient(#4568dc,#b06ab3);
-  		-webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .fa-bars {
@@ -267,22 +267,22 @@ footer i {
 }
 
 .ordinary span:before {
-	 content: '';
-  position: absolute;
-  width: 0%;
-  height: 3px;
-  top: 50%;
-  margin-top: -0.5px;
-  background: #fff;
-  animation-name: strikethrough;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	top: 50%;
+	margin-top: -0.5px;
+	background: #fff;
+	animation-name: strikethrough;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
 }
 
 
 @keyframes strikethrough {
 	from {width: 0%;}
-  to {width: 25%;}
+	to {width: 25%;}
 }
 
 /*customized components*/
@@ -303,8 +303,8 @@ p {
 
 h2 {
 	background: -webkit-linear-gradient(#4568dc,#b06ab3);
-  		-webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 h2, h3, h1 {
 	font-family: "Helvetica", sans-serif;
@@ -316,11 +316,11 @@ h2, h3, h1 {
 	font-style: italic;
 }
 
-.webdev h1, .webdev h1+h1{
-		background: -webkit-linear-gradient(#4568dc,#b06ab3);
-  		-webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
-	} 
+.webdev h1, .webdev h1+h1 {
+	background: -webkit-linear-gradient(#4568dc,#b06ab3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} 
 
 
 
