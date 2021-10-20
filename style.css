@@ -171,6 +171,10 @@ div .collapse {
 	height: 400px;	
 }
 
+#contactPage div {
+	max-height: 1500px;
+}
+
 .viewport-height {
 	height: 100vh;
 }
@@ -200,11 +204,6 @@ div .collapse {
 
 footer .jumbotron {
 	height: 250px;
-
-}
-
-footer {
-	margin-top: -200px;
 }
 
 footer i {
@@ -213,6 +212,7 @@ footer i {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 
 .fa-bars {
 	color: gray;!important;
