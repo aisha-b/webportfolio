@@ -169,6 +169,10 @@ footer .jumbotron {
 	-webkit-text-fill-color: transparent;
 }
 
+#contactPage i:hover {
+	opacity: .5;
+}
+
 .fa-bars {
 	color: gray !important;
 }
