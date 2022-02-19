@@ -261,6 +261,9 @@ footer i {
 p {
 	font-size: 12px;
 	text-align: justify;
+}
+
+* {
 	font-family: "Futura", sans-serif;
 }
 
@@ -285,4 +288,15 @@ h1 {
 	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.expertise-list-title{
+	font-weight: bold;
+	color: #b06ab3;
+}
+.expertise-list li {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0px 10px;
 }
