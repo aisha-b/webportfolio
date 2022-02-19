@@ -42,10 +42,6 @@
 		font-size: 50px !important;
 	}
 
-	.tech-stack img {
-		width: 100px !important;
-	}
-
 	.container-fluid > div {
 		margin-bottom: 50px !important;
 	}
@@ -80,10 +76,6 @@
 	#projectsPage > div {
 		padding: 50px !important;
 	}
-
-	.tech-stack img {
-		width: 150px !important;
-	}
 }
 
 @media only screen and (min-width: 1400px) {
@@ -103,10 +95,6 @@
 		top: -30px;
 		height: 20px;
 		z-index: 1;
-	}
-
-	.tech-stack img {
-		width: 70px !important;
 	}
 
 	#landingPage + div {
@@ -168,11 +156,6 @@ div .collapse {
 	height: 100vh;
 }
 
-.tech-stack {
-	position: relative;
-	top: -80px;
-}
-
 .contact-cards {
 	position: relative;
 	top: -300px;
@@ -180,14 +163,6 @@ div .collapse {
 
 .contact-cards .card {
 	height: 600px !important;
-}
-
-.tech-stack img {
-	background-color: white;
-	border: 0px solid black;
-	border-radius: 50%;
-	margin: 10px;
-	box-shadow: 2px 1px 2px #524dff;
 }
 
 footer .jumbotron {
@@ -310,12 +285,4 @@ h1 {
 	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-/*tech stack hover effect*/
-.tech-stack img:hover {
-	width: 200px;
-	transition: width 1s !important;
-	display: block;
-	cursor: pointer;
 }
