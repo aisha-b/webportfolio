@@ -144,7 +144,6 @@ div .collapse {
 	background-color: none;
 }
 
-
 .viewport-height {
 	height: 100vh;
 }
@@ -158,10 +157,6 @@ div .collapse {
 	height: 600px !important;
 }
 
-footer .jumbotron {
-	height: 250px;
-}
-
 #contactPage i {
 	font-size: 40px;
 	background: -webkit-linear-gradient(#4568dc, #b06ab3);
@@ -170,7 +165,7 @@ footer .jumbotron {
 }
 
 #contactPage i:hover {
-	opacity: .5;
+	opacity: 0.5;
 }
 
 .fa-bars {
@@ -286,7 +281,7 @@ h1 {
 	-webkit-text-fill-color: transparent;
 }
 
-.expertise-list-title{
+.expertise-list-title {
 	font-weight: bold;
 	color: #b06ab3;
 }
@@ -297,7 +292,7 @@ h1 {
 	margin: 0px 10px;
 }
 
-.carousel-inner img{
+.carousel-inner img {
 	border-radius: 20px;
 	border: 2px solid #b06ab3;
 }
