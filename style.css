@@ -300,3 +300,8 @@ h1 {
 	display: inline-block;
 	margin: 0px 10px;
 }
+
+.carousel-inner img{
+	border-radius: 20px;
+	border: 2px solid #b06ab3;
+}
