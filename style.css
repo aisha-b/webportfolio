@@ -144,13 +144,6 @@ div .collapse {
 	background-color: none;
 }
 
-#contactPage .jumbotron {
-	height: 400px;
-}
-
-#contactPage div {
-	max-height: 1500px;
-}
 
 .viewport-height {
 	height: 100vh;
@@ -169,7 +162,7 @@ footer .jumbotron {
 	height: 250px;
 }
 
-footer i {
+#contactPage i {
 	font-size: 40px;
 	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
