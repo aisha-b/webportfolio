@@ -251,7 +251,6 @@ footer i {
 /*customized components*/
 .project-button {
 	width: 100%;
-	height: 60px;
 	color: white !important;
 	background: linear-gradient(to right, #4568dc, #b06ab3);
 	font-size: 20px !important;
