@@ -1,110 +1,104 @@
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
 	.navbar a {
 		font-size: 40px;
 	}
 
 	.space-left {
-		margin-left: 220px!important;
+		margin-left: 220px !important;
 	}
 
 	.div-space-left {
-		padding-left: 220px!important;
+		padding-left: 220px !important;
 	}
 
 	h3 {
 		position: relative;
-		font-size: 90px!important;
+		font-size: 90px !important;
 		top: -50px;
 		height: 50px;
 		z-index: 1;
 	}
 
 	h2 {
-		font-size: 100px!important;
+		font-size: 100px !important;
 		position: relative;
 		top: 60px;
 		letter-spacing: 30px;
 	}
 
-	.name h1{
+	.name h1 {
 		color: white;
-		font-size: 80px!important;
+		font-size: 80px !important;
 		transform: perspective(180px) rotateY(25deg);
 		font-weight: bolder;
 	}
-	.webdev h1{
+	.webdev h1 {
 		font-size: 80px;
 		transform: perspective(140px) rotateY(-15deg);
 		font-weight: bolder;
 	}
 
 	.webdev h1 + h1 {
-		font-size: 50px!important;
+		font-size: 50px !important;
 	}
 
 	.tech-stack img {
-		width: 100px!important;
-
+		width: 100px !important;
 	}
 
-	.container-fluid>div {
-		margin-bottom: 50px!important;
+	.container-fluid > div {
+		margin-bottom: 50px !important;
 	}
 
 	#landingPage + div {
-		margin-bottom: 100px!important;
+		margin-bottom: 100px !important;
 	}
 
-	#projectsPage>div {
-		margin-bottom: 100px!important;
+	#projectsPage > div {
+		margin-bottom: 100px !important;
 	}
 
 	.navbar-expand-lg {
-		width: 220px!important;
-		height: 100vh;	
+		width: 220px !important;
+		height: 100vh;
 	}
-
-
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
 	p {
-		font-size: 15px!important;
+		font-size: 15px !important;
 	}
 
 	h3 {
-		font-size: 130px!important;
+		font-size: 130px !important;
 		position: relative;
 		top: -80px;
 		height: 80px;
 		z-index: 1;
 	}
 
-	#projectsPage>div {
-		padding: 50px!important;
+	#projectsPage > div {
+		padding: 50px !important;
 	}
 
 	.tech-stack img {
-		width: 150px!important;
-
+		width: 150px !important;
 	}
-
-
 }
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1400px) {
 	p {
-		font-size: 20px!important;
+		font-size: 20px !important;
 	}
 
-	#projectsPage>div {
-		padding: 100px!important;
+	#projectsPage > div {
+		padding: 100px !important;
 	}
 }
 
-@media only screen and (max-width:  992px) {
+@media only screen and (max-width: 992px) {
 	h3 {
-		font-size: 50px!important;
+		font-size: 50px !important;
 		position: relative;
 		top: -30px;
 		height: 20px;
@@ -112,63 +106,58 @@
 	}
 
 	.tech-stack img {
-		width: 70px!important;
+		width: 70px !important;
 	}
-
 
 	#landingPage + div {
-		margin-bottom: 30px!important;
+		margin-bottom: 30px !important;
 	}
 
-	#projectsPage>div {
-		margin-bottom: 80px!important;
+	#projectsPage > div {
+		margin-bottom: 80px !important;
 	}
 
 	h2 {
-		font-size: 50px!important;
+		font-size: 50px !important;
 		position: relative;
 		top: 40px;
 		letter-spacing: 12px;
 	}
 
-	.name h1{
+	.name h1 {
 		color: white;
-		font-size: 60px!important;
+		font-size: 60px !important;
 		transform: perspective(180px) rotateY(15deg);
 		font-weight: bolder;
 	}
-	.webdev h1{
+
+	.webdev h1 {
 		font-size: 60px;
 		transform: perspective(180px) rotateY(-15deg);
 		font-weight: bolder;
 	}
 
 	.webdev h1 + h1 {
-		font-size: 30px!important;
+		font-size: 30px !important;
 	}
 
-	.navbar-collapse{
+	.navbar-collapse {
 		background-color: white;
-		opacity: .8;
+		opacity: 0.8;
 	}
-
 }
 
 div .collapse {
-	height: 50vh!important;
+	height: 50vh !important;
 }
 
 #landingPage .jumbotron {
-	border-radius: 0!important;
+	border-radius: 0 !important;
 	background-color: none;
 }
 
-#aboutPage .jumbotron {
-
-}
-
 #contactPage .jumbotron {
-	height: 400px;	
+	height: 400px;
 }
 
 #contactPage div {
@@ -187,11 +176,10 @@ div .collapse {
 .contact-cards {
 	position: relative;
 	top: -300px;
-
 }
 
 .contact-cards .card {
-	height: 600px!important;
+	height: 600px !important;
 }
 
 .tech-stack img {
@@ -199,7 +187,7 @@ div .collapse {
 	border: 0px solid black;
 	border-radius: 50%;
 	margin: 10px;
-	box-shadow: 2px 1px 2px #524DFF;
+	box-shadow: 2px 1px 2px #524dff;
 }
 
 footer .jumbotron {
@@ -208,16 +196,14 @@ footer .jumbotron {
 
 footer i {
 	font-size: 40px;
-	background: -webkit-linear-gradient(#4568dc,#b06ab3);
+	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-
 .fa-bars {
-	color: gray;!important;
+	color: gray !important;
 }
-
 
 /*hover effect*/
 .nav-item span {
@@ -228,24 +214,22 @@ footer i {
 }
 
 .nav-item span:before {
-	content: '';
+	content: "";
 	width: 0;
 	z-index: -1;
 	position: absolute;
 	height: 20px;
 	top: 40%;
 	left: -10%;
-
 }
 
 .nav-item span:hover:before {
-	width: 120%!important ; 
-	transition: width 0.5s!important ;
-
+	width: 120% !important ;
+	transition: width 0.5s !important ;
 }
 
 .hover-red span:before {
-	background: #7772F9;
+	background: #7772f9;
 }
 
 .hover-blue span:before {
@@ -268,7 +252,7 @@ footer i {
 }
 
 .ordinary span:before {
-	content: '';
+	content: "";
 	position: absolute;
 	width: 0%;
 	height: 3px;
@@ -280,19 +264,22 @@ footer i {
 	animation-iteration-count: infinite;
 }
 
-
 @keyframes strikethrough {
-	from {width: 0%;}
-	to {width: 25%;}
+	from {
+		width: 0%;
+	}
+	to {
+		width: 25%;
+	}
 }
 
 /*customized components*/
 .project-button {
 	width: 100%;
 	height: 60px;
-	color: white!important;
-	background: linear-gradient(to right,#4568dc,#b06ab3);
-	font-size: 20px!important;
+	color: white !important;
+	background: linear-gradient(to right, #4568dc, #b06ab3);
+	font-size: 20px !important;
 }
 
 /*typhography*/
@@ -303,34 +290,32 @@ p {
 }
 
 h2 {
-	background: -webkit-linear-gradient(#4568dc,#b06ab3);
+	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-h2, h3, h1 {
+h2,
+h3,
+h1 {
 	font-family: "Helvetica", sans-serif;
 }
-
 
 .navbar a {
 	font-family: "Helvetica", sans-serif;
 	font-style: italic;
 }
 
-.webdev h1, .webdev h1+h1 {
-	background: -webkit-linear-gradient(#4568dc,#b06ab3);
+.webdev h1,
+.webdev h1 + h1 {
+	background: -webkit-linear-gradient(#4568dc, #b06ab3);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-} 
+}
 
 /*tech stack hover effect*/
 .tech-stack img:hover {
 	width: 200px;
-	transition: width 1s!imprtant;
+	transition: width 1s !important;
 	display: block;
 	cursor: pointer;
 }
-
-
-
-
